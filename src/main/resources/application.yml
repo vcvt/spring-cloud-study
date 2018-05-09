@@ -12,3 +12,6 @@ spring:
         max-idle: 8
         min-idle: 0
     password: 360121
+  #热部署静态文件，修改完文件后按ctrl+shift+f9
+  thymeleaf:
+    cache: false
