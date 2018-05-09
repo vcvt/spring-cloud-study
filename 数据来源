@@ -1,0 +1,7 @@
+//通过城市名字获得天气数据
+http://wthrcdn.etouch.cn/weather_mini?city=深圳
+//通过城市ID获得天气数据
+http://wthrcdn.etouch.cn/weather_mini?cityKey=101280601
+//城市ID列表
+http://mobile.weather.com.cn/js/citylist.xml
+http://cj.weather.com.cn/support/Detail.aspx?id=51837fba1b35fe0f8411b6df

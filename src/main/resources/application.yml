@@ -1,0 +1,13 @@
+#redis.conf 给bind 127.0.0.1加注释，redis-cli中设置config set protected-mode no
+spring:
+  redis:
+    host: 118.126.115.225
+    port: 6379
+    timeout: 0
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
