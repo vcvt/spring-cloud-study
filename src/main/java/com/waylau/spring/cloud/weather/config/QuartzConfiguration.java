@@ -20,7 +20,7 @@ public class QuartzConfiguration {
 
     @Bean
     public Trigger weatherDataSyncTrigger() {
-        SimpleScheduleBuilder scheduleBuilder = SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(2).repeatForever();
+        SimpleScheduleBuilder scheduleBuilder = SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(1800).repeatForever();
         return TriggerBuilder.newTrigger().forJob(weatherDataSyncJob()).withIdentity("weatherDataSyncTrigger").withSchedule(scheduleBuilder).build();
     }
 }

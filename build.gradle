@@ -49,6 +49,7 @@ dependencies {
 	compile('org.apache.httpcomponents:httpclient:4.5.5')
 	compile('org.springframework.boot:spring-boot-starter-data-redis')
 	compile('org.springframework.boot:spring-boot-starter-quartz')
+	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	// 该依赖用于测试阶段
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 
